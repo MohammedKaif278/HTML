@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT Attributes</title>
+    <script>
+        function sayHello(){
+            alert("Hello!");
+        }
+
+        function hoverMessage(){
+            alert("Mouse over the text");
+        }
+
+        function pageLoaded(){
+            alert("Page has fully loaded");
+        }
+
+    </script>
+</head>
+<body onload="pageLoaded()">
+    
+    <button onclick="sayHello()">Click Me</button>
+
+    <p onmouseover="hoverMessage()">Hover over this text</p>
+    
+</body>
+</html>
